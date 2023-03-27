@@ -1,0 +1,19 @@
+﻿{
+    "professions": [
+        {
+            "name": "Энди Уир",
+            "image": "static/img/Endi.png",
+            "prof": "астролог, специалист по радиационной защите"
+        },
+        {
+            "name": "Джон Уик",
+            "image": "static/img/Jhon.png",
+            "prof": "Механик, учитель"
+        },
+        {
+            "name": "Гордон Фримен",
+            "image": "static/img/Freeman.png",
+            "prof": "Байкер, ученый"
+        }
+    ]
+}
