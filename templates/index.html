@@ -2,10 +2,6 @@
 
 {% block content %}
 <h1 class="text-center">Пейзажи марса</h1>
-<form action="{{ url_for('index') }}" enctype="multipart/form-data" method="POST">
-    <input name="img" type="file"/>
-    <input type="submit"/>
-</form>
 <div class="container-fluid my-carousel">
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-indicators">
@@ -34,4 +30,8 @@
         </button>
     </div>
 </div>
+<form action="{{ url_for('index') }}" enctype="multipart/form-data" method="POST">
+    <input name="img" type="file"/>
+    <input type="submit"/>
+</form>
 {% endblock %}
